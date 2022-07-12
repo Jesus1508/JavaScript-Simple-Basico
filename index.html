@@ -9,13 +9,16 @@
     <script src="funciones.js"></script>
 </head>
 <body>
-    <form onsubmit="operacion()">
+    <form>
         <div class="row">
             <label for="num">Introduce un numero:</label>
             <input type="number" name="num" id="num" required>
         </div>
 
-        <input type="submit" value="Enviar">
+        <input type="button" value="Enviar" onclick="esPrimo()">
     </form>
+
+    <div id="resultado">
+    </div>
 </body>
 </html>
